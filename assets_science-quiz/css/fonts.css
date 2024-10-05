@@ -1,0 +1,29 @@
+@font-face {
+   font-family: "shurjo";
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+   src: local("Shurjo Regular"),
+      url("../fonts/ShurjoWeb_400.woff2") format("woff2"),
+      url("../fonts/ShurjoWeb_400.ttf") format("truetype");
+}
+@font-face {
+   font-family: "shurjo";
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+   src: local("Shurjo Semi Bold"),
+      url("../fonts/ShurjoWeb_600.woff") format("woff"),
+      url("../fonts/ShurjoWeb_600.woff2") format("woff2"),
+      url("../fonts/ShurjoWeb_600.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "shurjo";
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+   src: local("Shurjo Bold"),
+      url("../fonts/ShurjoWeb_700.woff2") format("woff2"),
+      url("../fonts/ShurjoWeb_700.ttf") format("truetype");
+}

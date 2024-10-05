@@ -1,0 +1,141 @@
+.hide {
+   display: none;
+}
+.popup {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+}
+.popup-wrapper {
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow-y: auto;
+}
+.popup-box {
+   max-width: 630px;
+   background-color: #fff;
+   border: 1px solid rgba(0, 0, 0, 0.25);
+   padding: 32px 75px 42px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+	box-shadow: 0 0 30px 4px #444;
+   margin: 0 20px;
+}
+.popup-title {
+   width: 100%;
+   color: #d60000;
+   font-size: 36px;
+   text-align: center;
+   position: relative;
+   /* padding-bottom: 2px; */
+}
+.popup-title:before {
+	content: '';
+	bottom: 0;
+   left: 50%;
+	position: absolute;
+	border-bottom: 4px solid #d60000;
+	width: 64px;
+	-webki-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.popup-info {
+   font-size: 16px;
+   text-align: center;
+   margin: 16px 0 30px;
+}
+.popup-close-btn {
+   width: 45px;
+	position: absolute;
+	top: 0;
+	right: 2px;
+	margin: 4px;
+	padding: 8px;
+	cursor: pointer;
+}
+.popup-section {
+   font-size: 18px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding: 2px 0;
+   text-decoration: none;
+   color: initial;
+}
+.popup-section a {
+   color: #0080c7;
+   font-weight: bold;
+}
+.popup-section img {
+   margin-right: 36px;
+}
+.popup-section:last-of-type img {
+   align-self: start;
+}
+.popup-section:last-of-type li {
+   font-size: 16px;
+   list-style: none;
+   line-height: 1.5em;
+}
+.popup-section:last-of-type li:first-of-type {
+   font-size: 18px;
+   font-weight: bold;
+   color: #d60000;
+}
+.popup-or {
+   color: rgba(0, 0, 0, 0.6);
+   position: relative;
+   background-color: #fff;
+   display: flex;
+   justify-content: center;
+   margin: 12px 0;
+}
+.popup-or p {
+   font-size: 16px;
+	background-color: #fff;
+	z-index: 1;
+	position: relative;
+   padding: 0 13px;
+}
+.popup-or:after {
+   content: '';
+   top: 50%;
+   left: 0;
+   position: absolute;
+   width: 82%;
+   border-top: 1px solid rgba(0, 0, 0, 0.24);
+   margin: 0 9%;
+}
+
+@media screen and (max-width: 630px) {
+	.popup-box {
+		padding: 32px 10vw 42px;
+		margin-top: 30px;
+	}
+	.popup-wrapper {
+		align-items: baseline;
+	}
+	.popup-title {
+		font-size: 30px;
+	}
+	.popup-section {
+		font-size: 16px;
+	}
+	.popup-or p {
+		font-size: 15px;
+	}
+	.popup-section img {
+		margin-right: 25px;
+	}
+}
+
+

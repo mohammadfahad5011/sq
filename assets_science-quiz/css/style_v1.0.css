@@ -1,0 +1,8 @@
+@import "./fonts.css";
+@import "./main.css";
+@import "./popup.css";
+
+@import "./medium_screen.css" screen and (max-width: 1024px);
+@import "./small_screen.css" screen and (max-width: 767px);
+@import "./extra_small_screen.css" screen and (max-width: 480px);
+

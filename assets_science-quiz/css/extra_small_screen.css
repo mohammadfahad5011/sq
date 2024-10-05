@@ -1,0 +1,146 @@
+.cover-content img {
+  width: 60%;
+  margin: 8vw 0 6vw;
+}
+.cover h1 {
+  font-size: 1.6rem;
+}
+.cover p {
+  font-size: 1.2rem;
+}
+.hero-sponsore_logs {
+  width: 50%;
+}
+.hero-section .hero-content h6 {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.hero-section .hero-content h1 {
+  font-size: 2rem;
+}
+.hero-section .hero-content .hero-sponsore h6 {
+  font-size: 0.8rem;
+}
+.hero-section .hero-content h6 {
+  margin-top: 16px;
+}
+.contest-cards {
+  top: -155px;
+}
+.contest-cards .card .icon {
+  width: 42px;
+  height: 42px;
+  padding: 8px;
+}
+.contest-cards .card:hover > div .icon {
+  width: 50px;
+  height: 50px;
+}
+.contest-cards .card {
+  font-size: 1.2rem;
+  min-height: 78px;
+}
+.contest-cards .card > div:last-of-type {
+  width: 35%;
+}
+.contest-cards .card > div:last-of-type {
+  width: 65%;
+}
+.essay-contest .details button span,
+.photo-contest .details button span,
+.quiz-contest .details button span {
+  font-size: 1.125rem;
+  text-align: left;
+  padding-left: 20px;
+}
+.essay-contest .details button div,
+.photo-contest .details button div,
+.quiz-contest .details button div {
+  width: 40px;
+  height: 40px;
+}
+.price-cards .card .header .icon {
+  width: 42px;
+  height: 42px;
+}
+.price-cards .card .header .title h2 {
+  font-size: 1.2rem;
+}
+.footer {
+  padding: 100px 0 100px;
+}
+.footer img {
+  width: 80px;
+}
+.footer > div:last-of-type,
+.footer > div:first-of-type {
+  bottom: 0;
+}
+.cover-content,
+.essay-contest,
+.photo-contest,
+.quiz-contest,
+.caution,
+.pricebond,
+.contest-cards {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.footer,
+.announcement {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover-content img {
+    width: 70%;
+  }
+  .cover h1 {
+    font-size: 1.4rem;
+  }
+  .cover p {
+    font-size: 1rem;
+  }
+  .contest-cards .card > div:first-of-type {
+    display: none;
+  }
+  .contest-cards .card > div:last-of-type {
+    width: 100%;
+  }
+  .contest-cards .card > div:last-of-type p {
+    width: 100%;
+    text-align: center;
+  }
+  .announcement > p:nth-last-child(-n + 3) {
+    padding-bottom: 15px;
+    line-height: 1.4em;
+  }
+  .price-cards .card .header {
+    flex-direction: column;
+  }
+  .price-cards .card .header .title {
+    width: 100%;
+    text-align: center;
+  }
+  .price-cards .card .header {
+    padding: 24px 0 5px;
+  }
+  .essay-contest .details button span,
+  .photo-contest .details button span,
+  .quiz-contest .details button span {
+    text-align: center;
+  }
+  .essay-contest .details button div,
+  .photo-contest .details button div,
+  .quiz-contest .details button div {
+    display: none;
+  }
+  .footer > div:last-of-type,
+  .footer > div:first-of-type {
+    bottom: -35px;
+    /* top: -112px !important; */
+  }
+}
